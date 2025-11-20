@@ -23,14 +23,30 @@ header {
     padding: 45px 15px;
 }
 
-#logo {
-    width: 260px;
-}
-
-header ul {
+.menu {
+    display: flex;
+    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.menu li {
+    background-color: rgb(169, 168, 162);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: #b3bb10;
+    transform: translateY(-2px);
+}
+
+#logo {
+    width: 260px;
 }
 
 main {

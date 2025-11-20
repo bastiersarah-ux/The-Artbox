@@ -14,10 +14,11 @@
 <body>
     <header>
         <a href="index.php"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
-        <nav>
-            <ul>
+        <section>
+            <ul class="menu">
                 <li><a href="index.php">Accueil</a></li>
+                <li><a href="form.php">Ajouter une oeuvre</a></li>
             </ul>
-        </nav>
+        </section>
     </header>
     <main>
